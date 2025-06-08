@@ -1,3 +1,3 @@
 # eatthat
 
-This is a full-stack restaurant randomizer app using Vite, Google Places API, and Firebase. Logged user selections in Firestore, exported interaction data to BigQuery for SQL-based behavioral analysis and dashboard creation.
+This is a full-stack web app using Supabase and Google Places API to recommend nearby restaurants. Logged real user actions in a PostgreSQL backend, enabling real-time analytics and SQL-based behavioral insights.
