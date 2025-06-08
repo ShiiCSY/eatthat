@@ -1,4 +1,4 @@
-import './style.css'
+import 'style.css'
 
 // Helper function to get user location using geolocation or IP-based fallback
 async function getUserLocation() {
