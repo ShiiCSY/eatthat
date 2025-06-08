@@ -36,7 +36,7 @@ EatTHAT! is a full-stack web app using Supabase and Google Places API to recomme
 <br>	1.	On page load, the app fetches the user’s geolocation using the browser’s navigator.geolocation.
 <br>	2.	If denied or failed, it uses IP-based fallback via ipwho.is.
 <br>	3.	Once a user clicks the main button:
-<br>	  &nbsp&nbsp  •	A restaurant is randomly selected from Google Places API nearby results.
+<br>	  &nbsp&nbsp  •	A restaurant is randomly selected from Google Places API nearby results (Within 2km radius).
 <br>	  &nbsp&nbsp  •	A marker appears on the map, and details are shown.
 <br>	4.	If the user presses:
 <br>	 &nbsp&nbsp   •	“Try Again”: logs a reject in Supabase and shows a new restaurant.
