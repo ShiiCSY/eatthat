@@ -48,3 +48,4 @@ EatTHAT! is a full-stack web app using Supabase and Google Places API to recomme
 <br>	•	👤 Optional user login to track individual preferences
 <br>	•	📊 Realtime dashboard with usage data
 <br>	•	🧠 Use ML to recommend based on past likes/rejects
+<br>	•	🗺️ Add price range and distance from user
