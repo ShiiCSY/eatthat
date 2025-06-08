@@ -1,0 +1,466 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  /* background: hsl(0, 0%, 90%);
+  border-radius: 10px;
+  width: 0.5em;
+  margin-right: 0.5em;
+  left: 0.5em; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7a7a7a;
+  border-radius: 10px;
+  margin-right: 0.5em;
+  left: 0.5em;
+
+}
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fcdd2a;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+
+.mainbutton {
+  width: 100vh;
+  background-color: #ffbb00;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainb {
+  height: 7vh;
+  width: 18vh;
+  transform: rotate(5deg);
+  transition: all 0.3s ease;
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 20px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  /* height: 48px; */
+  width: 20vh;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  outline: none;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.button-30.slide-up {
+  transform: translateY(-42.5vh);
+}
+
+.title {
+  font-family: 'Dela Gothic One', sans-serif;
+  color: #333;
+  margin: 0;
+  transform: translateY(-10vh);
+  transition: all 0.5s ease;
+}
+
+.subtitle {
+  font-family: 'Dela Gothic One', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  transform: translateY(-10vh);
+  transition: all 0.5s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.container.visible {
+  height: 70vh;
+  width: 60vw;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding: 40px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  margin-top: auto;
+}
+
+.try-again, .thats-it {
+  background-color: #ffbb00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Dela Gothic One', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 200px;
+}
+
+.try-again:hover, .thats-it:hover {
+  transform: scale(1.05);
+  background-color: #ffc933;
+}
+
+.thats-it {
+  background-color: #4CAF50;
+}
+
+.thats-it:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  font-family: 'Dela Gothic One', sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.map-preview {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.restaurant-details-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 90%;
+}
+
+.restaurant-info {
+  flex: 1;
+}
+
+.photo-gallery-container {
+  grid-template-columns: repeat(3, 1fr);
+  flex: 2;
+  min-width: 300px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: 100%;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.restaurant-name {
+  font-family: 'Dela Gothic One', sans-serif;
+  color: #333;
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+}
+
+.restaurant-address {
+  color: #666;
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.restaurant-rating {
+  color: #ffbb00;
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.restaurant-price {
+  color: #666;
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.restaurant-photo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.map-photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-size: 10px;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  /* background: #7808d0; */
+  background: #ffbb00;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  left: 800%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  place-content: center;
+  transition:
+    background 300ms,
+    transform 200ms;
+  font-weight: 600;
+}
+
+.button__text {
+  font-family: sans-serif;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-size: 12px;
+  position: absolute;
+  inset: 0;
+  animation: text-rotation 8s linear infinite;
+
+  > span {
+    position: absolute;
+    transform: rotate(calc(19deg * var(--index)));
+    inset: -8px;
+  }
+}
+
+.button__circle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background: #fff;
+  color: #ffbb00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__icon--copy {
+  position: absolute;
+  transform: translate(-150%, 150%);
+}
+
+.button:hover {
+  background: #000;
+  transform: scale(1.05);
+}
+
+.button:hover .button__icon {
+  color: #000;
+}
+
+.button:hover .button__icon:first-child {
+  transition: transform 0.3s ease-in-out;
+  transform: translate(150%, -150%);
+}
+
+.button:hover .button__icon--copy {
+  transition: transform 0.3s ease-in-out 0.1s;
+  transform: translate(0);
+}
+
+@keyframes text-rotation {
+  to {
+    rotate: 360deg;
+  }
+}
